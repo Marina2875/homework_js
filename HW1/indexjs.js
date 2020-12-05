@@ -31,7 +31,7 @@ a=consumptionPerWeek*weeksAmount
 b=a/sheetsInReamPaper
 for (let i=0;i<b;i++){
   i = Math.round(b);
-console.log('reams of paper=',i)
+console.log('reams of paper=',i+1)
 }
 ////////////////////////////////////////////////////////////////
 //Задание №4
